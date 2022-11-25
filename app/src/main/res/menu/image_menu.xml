@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnuReName"
+        android:title="Đổi tên"></item>
+    <item
+        android:title="Chi tiết"
+        android:id="@+id/mnuInfo"></item>
+    <item
+        android:title="Xoá"
+        android:id="@+id/mnuDelete"></item>
+    <item
+        android:title="Chia sẻ"
+        android:id="@+id/mnuShare"></item>
+    <item
+        android:title="Xoay">
+        <menu>
+            <item
+                android:id="@+id/mnuXoayPhai"
+                android:title="Xoay Phải"></item>
+            <item
+                android:id="@+id/mnuXoayTrai"
+                android:title="Xoay Trái"></item>
+        </menu>
+    </item>
+</menu>
